@@ -1,1 +1,1 @@
-hello world _ git verify !! -QC20240218
+hello world _ git verify ! -QC20240218
