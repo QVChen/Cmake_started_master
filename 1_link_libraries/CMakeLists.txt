@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+project(test_linklibrary)
+set(CMAKE_CXX_STANDARD 11)
+set(HOME /home/qc/workspace_cmake/1_link_libraries/build)
+set(EXECUTABLE_OUTPUT_PATH ${HOME}/bin/)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
+add_executable(app  ${SRC_LIST})
