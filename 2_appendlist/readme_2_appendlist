@@ -1,0 +1,39 @@
+This project is mainly focuses on the basic functions as following:
+1.log
+2.set & list
+3.MacroDefinition
+
+This folder_tree is following:
+.
+├── 0_appendset
+│   ├── build
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── head.h
+│   ├── src1
+│   │   ├── main.cpp
+│   │   ├── mult.cpp
+│   │   └── sub.cpp
+│   └── src2
+│       ├── add.cpp
+│       └── div.cpp
+├── 1_remove
+│   ├── build
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── head.h
+│   ├── src1
+│   │   ├── main.cpp
+│   │   ├── mult.cpp
+│   │   └── sub.cpp
+│   └── src2
+│       ├── add.cpp
+│       └── div.cpp
+├── 2_MacroDefinition
+│   ├── build
+│   ├── CMakeLists.txt
+│   └── src
+│       └── main.cpp
+└── readme_2_appendlist
+
+This tutorial ranges from 2.7(log) to 2.9(MacroDefinition)

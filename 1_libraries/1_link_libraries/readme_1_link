@@ -1,0 +1,28 @@
+This project is mainly focuses on the basic functions as following:
+1.link dynamic and static libraries
+
+This folder_tree is following:
+$ tree
+.
+├── 0_STATIC_link
+│   ├── build
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── head.h
+│   ├── lib
+│   │   └── libcalc.a
+│   └── src
+│       └── main.cpp
+├── 1_SHARED_link
+│   ├── build
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── head.h
+│   ├── lib
+│   │   └── libcalc.so
+│   └── src
+│       └── main.cpp
+└── readme_1_link
+10 directories, 9 files
+
+This tutorial according to 2.6 link library
