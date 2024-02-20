@@ -6,5 +6,18 @@ This project is mainly focuses on the basic functions as following:
 5.Generate a list of all file meeting the condition and store to variable
 6.define the project will generate an .exe
 
+This folder_tree is following:
+$ tree
+.
+├── build
+├── CMakeLists.txt
+├── include
+│   └── head.h
+└── src
+    ├── add.cpp
+    ├── div.cpp
+    ├── main.cpp
+    ├── mult.cpp
+    └── sub.cpp
 
 This tutorial ranges from 2.1(only src) to 2.4(include header files)

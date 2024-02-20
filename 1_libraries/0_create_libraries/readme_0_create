@@ -1,0 +1,39 @@
+This project is mainly focuses on the basic functions as following:
+1.Create dynamic and static libraries
+
+
+This folder_tree is following:
+$ tree
+.
+├── 0_STATIC_create
+│   ├── build
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── head.h
+│   ├── lib
+│   │   └── libcalc.a
+│   └── src
+│       ├── add.cpp
+│       ├── div.cpp
+│       ├── main.cpp
+│       ├── mult.cpp
+│       └── sub.cpp
+├── 1_SHARED_create
+│   ├── build
+│   │   └── CMakeFiles
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── head.h
+│   ├── lib
+│   │   └── libcalc.so
+│   └── src
+│       ├── add.cpp
+│       ├── div.cpp
+│       ├── main.cpp
+│       ├── mult.cpp
+│       └── sub.cpp
+└── readme_0_create
+
+11 directories, 17 files
+
+This tutorial according to 2.5create library
